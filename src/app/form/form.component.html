@@ -1,6 +1,8 @@
 <div>
   <input type="text" id="first_name" name="first_name" [(ngModel)]="firstName">
+  <input type="text" id="lasst_name" name="lasst_name" [(ngModel)]="lastName">
 </div>
 <h3>{{ firstName }}</h3>
 
-<button type="button" (click)="setValue()">Go</button>
+<button type="button" (click)="setfValue()">Go for first name</button>
+<button type="button" #lastName (click)="setlValue(lastName.value)" >Go</button>
