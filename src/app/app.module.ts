@@ -6,10 +6,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FormComponent } from './form/form.component';
-// import { HousingLocationComponent } from './header/header.component';
+import { HomeComponent } from './home/home.component';
+import { HousingLocationComponent } from './housing-location/housing-location.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FormComponent],
+  declarations: [AppComponent, HeaderComponent, FormComponent, HomeComponent, HousingLocationComponent],
   imports: [BrowserModule, AppRoutingModule,FormsModule],
   providers: [],
   bootstrap: [AppComponent],

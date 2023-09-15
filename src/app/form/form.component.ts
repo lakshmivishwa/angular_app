@@ -11,7 +11,5 @@ export class FormComponent {
   setfValue() {
     console.log(this.firstName);
   }
-  setlValue(value: string) {
-    console.log(value);
-  }
+  
 }
