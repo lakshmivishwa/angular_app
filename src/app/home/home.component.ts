@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { HousingLocation } from '../housinglocation';
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
